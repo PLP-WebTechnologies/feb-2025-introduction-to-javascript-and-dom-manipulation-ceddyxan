@@ -31,10 +31,11 @@ document.addEventListener("DOMContentLoaded", function () {
       message.style.opacity = "1";
     });
 
-       const colorBox = document.getElementById("colorBox");
+    const colorBox = document.getElementById("colorBox");
     const changeColorButton = document.getElementById("changeColor");
     changeColorButton.addEventListener("click", function () {
         var randomColor = "#" + Math.floor(Math.random() * 16777215).toString(16);
         colorBox.style.backgroundColor = randomColor;
-    });    
+    });  
+     
 });

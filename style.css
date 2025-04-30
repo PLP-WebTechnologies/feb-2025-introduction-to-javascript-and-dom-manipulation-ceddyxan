@@ -6,8 +6,10 @@ body {
 
 header {
     color: pink;
-    background-color: #f0f0f0;
+    background-color: teal;
     padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #ccc;
 }
 
 h1 {
@@ -16,6 +18,10 @@ h1 {
 }
 
 section {
+    padding: 20px;
+    background-color: transparent !important;
+    border: 2px solid #ccc;
+    background-clip: padding-box;
     margin: 20px;
 }
 
@@ -25,6 +31,7 @@ button {
     color: white;
     border: none;
     cursor: pointer;
+    border-radius: 10px;
 }
 
 button:hover {
@@ -40,4 +47,22 @@ button:hover {
 
 #textToChange {
     font-weight: bold;
+}
+
+img {
+    width: 50%;
+    height: auto;
+    border: 15px double whitesmoke;
+    border-radius: 20px;
+    background-color: olive;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+
+  #container {
+    width: 80%;
+    margin-left: 10%;
+    background-color: #f0f0f0;
 }

@@ -2,30 +2,35 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dynamic Content Example">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Dynamic Content">
     <title>Dynamic Content Example</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="header">
-        <h1>The Dynamic Content Page</h1>
-    </header>
-    <img src="Player.png" alt="Player Image" id="playerImage" width="200" height="200">
-    <section>
-        <button id="changeColor">Change Color</button>
-        <div id="colorBox">This is a color box. Do you want to change my colors randomly? Click me!</div>
-    </section><br><br>
-    <section>
-        <button id="changeText">Change Text</button>
-        <p id="textToChange">Click the button above to change this text.</p>
-    </section>
-    <section>
-        <button id="toggleElement">Toggle Element</button>
-        <div id="toggleElementTarget">Toggle me again and again. This is the element to be toggled.</div>
-    </section><br><br>
-    <section>
-        <button id="btn">Click Me</button>
-        <p id="message">Try and Click the button to see wonders!</p>
-    </section>
-    <script src="script.js"></script>
+    <div id="container">
+        <header>
+            <h1>The Dynamic Content Page</h1>
+        </header>
+        <img src="Player.png" alt="Player Image" id="playerImage" width="200" height="200">
+        <section>
+            <button id="changeColor">Change Color</button>
+            <div id="colorBox">This is a color box. Do you want to change my colors randomly? Click me!</div>
+        </section>
+        <section>
+            <button id="changeText">Change Text</button>
+            <p id="textToChange">Click the button above to change this text.</p>
+        </section>
+        <section>
+            <button id="toggleElement">Toggle Element</button>
+            <div id="toggleElementTarget">Toggle me again and again. This is the element to be toggled.</div>
+        </section>
+        <section>
+            <button id="btn">Click Me</button>
+            <p id="message">Try and Click the button to see wonders!</p>
+        </section>
+        <script src="script.js"></script>
+    </div>
 </body>
 </html>
